@@ -6,16 +6,17 @@ A cash-flow planner that remembers how you actually get paid.
 
 ## Readiness
 
-On 8 November, a genuine read-only Tatum native USDC balance check and sponsored Walrus Mainnet publication/recovery succeeded. **20 meaningful fictional records plus a separate manifest** were completed and retrieved into an empty directory, reproducing three active lessons. The connected preview uses the actual captured zero balance with hypothetical planning assumptions. The later complete inventory returned finite expiry in June 2027 for all 21 blobs, covering judging. See [the live verification report](docs/live-verification-2026-11-08.md). Public distribution remains pending.
+On 8 November, a genuine read-only Tatum native USDC balance check and sponsored Walrus Mainnet publication/recovery succeeded. **20 meaningful fictional records plus a separate manifest** were completed and retrieved into an empty directory, reproducing three active lessons. The connected preview uses the actual captured zero balance with hypothetical planning assumptions. The later complete inventory returned finite expiry in June 2027 for all 21 blobs, covering judging. See [the live verification report](docs/live-verification-2026-11-08.md). The [source repository](https://github.com/jayjoshix/payday-memory) was published and verified publicly accessible on 9 November 2026. Public app hosting, article publication and a verified video watch URL remain pending.
 
-| Area                              | Status                                                                                                                                   |
-| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Local application                 | Verified: 71 offline tests and 24 browser checks; final build/static results are in `docs/handoff.md`                                    |
-| Fictional replay                  | Offline, authored data; never customer evidence                                                                                          |
-| Tatum account                     | Genuine balance and package-object reads passed. Billing/quota checks are builder-attested; no real receipt or complete history claimed. |
-| Walrus Mainnet                    | 20 source records plus manifest completed and retrieved; clean recovery passed; all 21 observed expiries cover judging.                  |
-| Ten confirmed Mainnet memories    | Passed: 20 distinct meaningful source records; manifest counted separately. Actual IDs and timestamps are in the evidence manifest.      |
-| Public demo/repository/blog/video | Preparation only; nothing is published or submitted by these commands                                                                    |
+| Area                             | Status                                                                                                                                   |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Local application                | Verified: 71 offline tests and 24 browser checks; final build/static results are in `docs/handoff.md`                                    |
+| Fictional replay                 | Offline, authored data; never customer evidence                                                                                          |
+| Tatum account                    | Genuine balance and package-object reads passed. Billing/quota checks are builder-attested; no real receipt or complete history claimed. |
+| Walrus Mainnet                   | 20 source records plus manifest completed and retrieved; clean recovery passed; all 21 observed expiries cover judging.                  |
+| Ten confirmed Mainnet memories   | Passed: 20 distinct meaningful source records; manifest counted separately. Actual IDs and timestamps are in the evidence manifest.      |
+| Public repository                | Published at [jayjoshix/payday-memory](https://github.com/jayjoshix/payday-memory); anonymous access verified on 9 November 2026.        |
+| Public demo/blog/video watch URL | Pending. The captioned video file is included in the repository; no separate watch URL or app deployment is confirmed.                   |
 
 The event page checked during implementation lists **10 November 2026, 17:00 UTC (22:30 IST)**. Recheck [the official event page](https://tatum.io/hackathon/total-recall) before submission. Organizer acceptance of a static sample plus recorded operator integration is still a builder check.
 
@@ -135,7 +136,7 @@ Only selected fictional application records may be published through the managed
 
 ## Submission materials
 
-Read [the blog draft](docs/blog-draft.md), [demo storyboard](docs/demo-storyboard.md), [submission preparation](docs/submission-preparation.md), [publication instructions](docs/publication.md), [cost inventory](docs/cost-inventory.md) and [verification handoff](docs/handoff.md). The blog is a factual draft to edit in your own voice. Form preparation is an outline for the builder's own answers. No publishing, submission, domain purchase or paid hosting is performed.
+Read [the blog draft](docs/blog-draft.md), [demo storyboard](docs/demo-storyboard.md), [submission preparation](docs/submission-preparation.md), [publication instructions](docs/publication.md), [cost inventory](docs/cost-inventory.md) and [verification handoff](docs/handoff.md). The blog is a factual draft to edit in your own voice. Form preparation is an outline for the builder's own answers. Source publication is complete; app hosting, article publication, a verified video watch URL and form submission remain pending. No domain or paid hosting was purchased.
 
 The [9 November audit fixes](docs/audit-fixes-2026-11-09.md) address quota stops, manifest failures, replay chronology, imported-date bounds, proof scoping, stale-balance explanations and dialog names. `npm run evidence:verify` checks the captured source/manifest hashes and expiry records entirely offline; it makes no freshness or current-provider-availability claim.
 
@@ -143,7 +144,7 @@ The latest [2:45.5 captioned submission video](docs/demo/payday-memory-submissio
 
 The presentation removes only 2.6 seconds of reviewed browser startup from the 167.96-second original. The remaining application run is continuous, with no cropping or scaling. Reproduce the captioned capture with the app running: `npm run demo:record:captioned`, then `python scripts/encode-captioned-demo.py --startup-seconds 2.6` using the existing Playwright FFmpeg encoder and Pillow. Review the new capture's startup before reusing that offset. This flow verifies captured artifacts offline. The separate historical operator recorder, `npm run demo:record:sponsors -- --live`, explicitly performs a fresh provider retrieval only after its account gates pass; it never publishes a memory. Without `--live`, that command skips.
 
-Current limits include a small authored evaluation, no real customer validation, no probability or trained-model claim, no live onchain receipt or complete-history claim, and no public URL until an authorized zero-cost publication is actually completed.
+Current limits include a small authored evaluation, no real customer validation, no probability or trained-model claim, no live onchain receipt or complete-history claim, and no public app deployment. The public source repository is separate from hosting the application.
 
 Sponsor commands select the verified portable Node runtime under ignored `.tooling` when it is present on Windows; otherwise they use the installed system Node. This leaves the system installation unchanged. `memory:account-check -- --live` is an explicit bounded metadata read, not a memory upload.
 

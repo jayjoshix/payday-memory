@@ -14,11 +14,11 @@ Target **Total Recall — Tatum × Walrus, Track 3: Consumer Finance Apps**. The
 - [x] All 21 inventory expiries observed after judging, in June 2027; no permanent-storage or paid-renewal claim.
 - [x] Genuine fresh operator retrieval recorded on 8 November; [its receipt](demo/sponsor-recording.json) and actual Mainnet evidence are retained publicly, while the uncut recording stays local and excluded from Git.
 - [x] New post-fix captioned submission video encoded at 2:45.5; 166 automated one-second samples and selected full-size frames inspected. See [the review record](demo/captioned-video-review.json) for limits; continuous playback was not reviewed. Its embedded captions identify 8 November sponsor evidence as captured; the new integrity check is local offline verification, with zero provider requests and no fresh Mainnet retrieval.
-- [ ] Public repository exists, excludes secrets/runtime state and has reproducible instructions.
+- [x] [Public repository](https://github.com/jayjoshix/payday-memory) exists, excludes secrets/runtime state and has reproducible instructions. Public visibility and anonymous README access verified on 9 November 2026.
 - [ ] Working public judge demo URL exists; a local URL is not a public deployment.
 - [ ] Builder confirms organizer acceptance of static replay plus captured proof and recorded genuine operator retrieval if no free backend is deployed.
 - [ ] Factual article edited in the builder's voice and published at a public URL.
-- [ ] Video published at an actual accessible public URL.
+- [ ] Verify an anonymously accessible video watch URL. The captioned video file is already included in the public repository; a separate watch destination remains pending.
 - [ ] Builder writes final answers in their own words and submits. No prize promise.
 
 ## Outline for the builder's own answers
@@ -37,7 +37,7 @@ Use these prompts as structure rather than paste-ready form text:
 
 The app builds a static judge bundle in `dist`; the real sponsor-connected operator server stays local unless a compatible, verified free server is already authorized. Browser replay can be placed on an authorized free static host; `.env.local`, `.data`, account checks and SDK credentials must never be uploaded. The static panel must say captured/disconnected, never live.
 
-Do not create hosting infrastructure, attach payment details or promise a URL merely because a platform advertises a free tier. No repository, article, recording or app is published by this preparation. Publication requires the user's applicable authorization and a verified zero-cost route. Follow [publication preparation](publication.md) for the concrete artifact and URL checks.
+Do not create hosting infrastructure, attach payment details or promise a URL merely because a platform advertises a free tier. The source repository and included captioned video file are public. App hosting, article publication, a verified video watch URL and form submission remain pending; each requires the user's applicable authorization and a verified zero-cost route. Follow [publication preparation](publication.md) for the concrete artifact and URL checks.
 
 ## Form identifiers
 

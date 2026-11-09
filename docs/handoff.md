@@ -1,6 +1,6 @@
 # Handoff and verification ledger
 
-**Local application and genuine sponsor round trips are verified. Public distribution is pending. New monetary spend: INR 0 / USD 0.**
+**Local application and genuine sponsor round trips are verified. The source repository is public; app, article and video watch-page publication remain pending. New monetary spend: INR 0 / USD 0.**
 
 The genuine Tatum native USDC snapshot is zero, captured at `2026-11-08T12:44:45.757Z`. Planning assumptions remain fictional. Walrus completed **20 distinct meaningful fictional source records plus a separate manifest**. Clean recovery at `2026-11-08T12:49:43.072Z` retrieved and hash-checked all records in an empty directory and reproduced three active lessons. All 21 inventory expiries cover judging, with end epoch 58 and finite expiry in June 2027. No permanent-storage or service-SLA claim is made.
 
@@ -18,7 +18,7 @@ The genuine Tatum native USDC snapshot is zero, captured at `2026-11-08T12:44:45
 | Empty-workspace recovery    | Passed: 20 retrieved records, 3 active lessons, dataset hash `9bdaa58aa5d2480313ffcf9022a731a83a37aad0938bfbd4f12b355b9a95921e`                                                               |
 | Storage expiry              | All 21 required blob expiries observed after judging; earliest 6 June 2027, epoch 58                                                                                                          |
 | Demo recording              | 2:45.5, embedded captions, fixed 1440×1080; 166 automated one-second samples and selected full-size frames reviewed. Genuine 8 November evidence is labelled captured.                        |
-| Public URLs                 | None published; no public repo/demo/article/video URL claimed                                                                                                                                 |
+| Public URLs                 | [Source repository](https://github.com/jayjoshix/payday-memory) published; anonymous access verified on 9 November 2026. Public app, article and separate video watch URL remain pending.     |
 
 The [9 November fix pass](audit-fixes-2026-11-09.md) adds regressions for all eight audit findings and the missing authored exceptional-delay example. Typecheck, lint, formatting, production compilation and the `/judge/` static flow passed after the changes. The new `evidence:verify` command confirmed that all 20 published payloads, the manifest and recovered dataset remain identical to their genuine 8 November evidence. No new sponsor requests or Mainnet writes were made to fix or verify these changes. A new captioned recording shows the post-fix application; [the 8 November operator receipt](demo/sponsor-recording.json) retains its dated genuine retrieval result.
 
@@ -34,4 +34,4 @@ Run locally with `npm ci`, `npm run dev`, then open http://127.0.0.1:4173. Memor
 
 The additional authored static correction case adds a fictional Paper Lane payment of $200 due 16 November. Reclassifying the reimbursement moves its planning date from 17 to 16 November and changes projected cash on that date from −$55 to $145. Held cash stays $1,250. This is fixture behavior, not a customer result. The canonical replay remains four resolved cases plus one unresolved: promised-date MAE 6 days, learned-date MAE 2.5 days, including the learned-worse counterexample.
 
-Remaining mandatory work: authorized zero-cost public distribution, public repository/article/video URLs, organizer acceptance of the static replay plus recorded local operator integration, and builder-written submission answers. No publication or submission has been performed. See [live verification](live-verification-2026-11-08.md) and [publication preparation](publication.md).
+Remaining mandatory work: zero-cost public app hosting and organizer acceptance of the static replay plus recorded local operator integration; article publication; a verified public video watch URL; and builder-written form answers and submission. Source publication is complete at [jayjoshix/payday-memory](https://github.com/jayjoshix/payday-memory), with public visibility and anonymous README access verified on 9 November 2026. No hackathon submission has been performed. See [live verification](live-verification-2026-11-08.md) and [publication preparation](publication.md).
