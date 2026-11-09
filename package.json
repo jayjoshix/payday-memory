@@ -1,0 +1,56 @@
+{
+  "name": "payday-memory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.14.0"
+  },
+  "scripts": {
+    "dev": "tsx src/server/index.ts --dev",
+    "build": "tsc --noEmit && node scripts/prepare-static.mjs && vite build && node scripts/check-bundle.mjs",
+    "start": "tsx src/server/index.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src scripts tests e2e",
+    "test": "tsx --test tests/*.test.ts",
+    "test:e2e": "playwright test",
+    "demo:seed": "tsx scripts/demo.ts seed",
+    "demo:reset": "tsx scripts/demo.ts reset",
+    "replay:evaluate": "tsx scripts/replay.ts",
+    "evidence:verify": "tsx scripts/verify-captured.ts",
+    "sponsors:check": "node scripts/run-sponsor.mjs sponsors-check",
+    "tatum:read": "node scripts/run-sponsor.mjs tatum-read",
+    "memory:publish": "node scripts/run-sponsor.mjs memory-publish",
+    "memory:verify": "node scripts/run-sponsor.mjs memory-verify",
+    "memory:account-check": "node scripts/run-sponsor.mjs memory-account-check",
+    "memory:probe": "node scripts/run-sponsor.mjs memory-probe",
+    "test:static": "node scripts/check-static.mjs",
+    "demo:record": "node scripts/record-captioned-demo.mjs",
+    "demo:record:sponsors": "node scripts/record-sponsor-demo.mjs",
+    "demo:record:captioned": "node scripts/record-captioned-demo.mjs",
+    "format:check": "prettier --check src scripts tests e2e *.ts *.js *.json"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "1.14.7",
+    "@mysten-incubation/memwal": "0.1.13",
+    "@mysten/sui": "2.39.0",
+    "@phosphor-icons/react": "2.1.10",
+    "@protobuf-ts/grpc-transport": "2.11.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.64.1",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "10.14.0",
+    "globals": "17.14.0",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.1",
+    "vite": "8.3.6"
+  }
+}

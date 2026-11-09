@@ -1,0 +1,575 @@
+{
+  "schemaVersion": 1,
+  "evidenceMode": "captured",
+  "provider": "Walrus Memory",
+  "network": "sui-mainnet",
+  "accountScope": "dd836b90dda91edb0c420f81",
+  "verifiedAt": "2026-11-08T12:49:43.072Z",
+  "datasetHash": "9bdaa58aa5d2480313ffcf9022a731a83a37aad0938bfbd4f12b355b9a95921e",
+  "manifestBlobId": "Z4gWat464lO9HkSnxf_ZZwkMaUT_-umk4SNYBiNCefU",
+  "recordCount": 20,
+  "dataset": {
+    "id": "payday-memory-fictional-v1-corrected-v1",
+    "schemaVersion": 1,
+    "timezone": "Asia/Kolkata",
+    "currency": "USDC",
+    "buffer": "300000000",
+    "horizonDays": 30,
+    "walletAddress": "fictional-wallet",
+    "opening": {
+      "date": "2026-05-01",
+      "balance": "1250000000"
+    },
+    "clients": [
+      {
+        "id": "aster",
+        "alias": "Aster Studio"
+      },
+      {
+        "id": "cedar",
+        "alias": "Cedar Works"
+      },
+      {
+        "id": "paper",
+        "alias": "Paper Lane"
+      }
+    ],
+    "invoices": [
+      {
+        "id": "cedar-may",
+        "clientId": "cedar",
+        "amount": "1800000000",
+        "dueDate": "2026-05-10",
+        "knownAt": "2026-04-20T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "cedar-jun",
+        "clientId": "cedar",
+        "amount": "1800000000",
+        "dueDate": "2026-06-10",
+        "knownAt": "2026-05-21T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "cedar-jul",
+        "clientId": "cedar",
+        "amount": "1800000000",
+        "dueDate": "2026-07-10",
+        "knownAt": "2026-06-20T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "cedar-aug",
+        "clientId": "cedar",
+        "amount": "1800000000",
+        "dueDate": "2026-08-10",
+        "knownAt": "2026-07-21T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "cedar-sep",
+        "clientId": "cedar",
+        "amount": "1800000000",
+        "dueDate": "2026-09-10",
+        "knownAt": "2026-08-21T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "cedar-oct",
+        "clientId": "cedar",
+        "amount": "1800000000",
+        "dueDate": "2026-10-10",
+        "knownAt": "2026-09-20T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "aster-jul",
+        "clientId": "aster",
+        "amount": "500000000",
+        "dueDate": "2026-07-12",
+        "knownAt": "2026-06-22T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "aster-aug",
+        "clientId": "aster",
+        "amount": "500000000",
+        "dueDate": "2026-08-12",
+        "knownAt": "2026-07-23T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "aster-sep",
+        "clientId": "aster",
+        "amount": "500000000",
+        "dueDate": "2026-09-12",
+        "knownAt": "2026-08-23T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "aster-oct",
+        "clientId": "aster",
+        "amount": "500000000",
+        "dueDate": "2026-10-12",
+        "knownAt": "2026-09-22T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "paper-aug",
+        "clientId": "paper",
+        "amount": "400000000",
+        "dueDate": "2026-08-15",
+        "knownAt": "2026-07-26T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "paper-sep",
+        "clientId": "paper",
+        "amount": "400000000",
+        "dueDate": "2026-09-15",
+        "knownAt": "2026-08-26T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "paper-oct",
+        "clientId": "paper",
+        "amount": "400000000",
+        "dueDate": "2026-10-15",
+        "knownAt": "2026-09-25T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "cedar-next",
+        "clientId": "cedar",
+        "amount": "1800000000",
+        "dueDate": "2026-11-10",
+        "knownAt": "2026-10-21T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "aster-next",
+        "clientId": "aster",
+        "amount": "650000000",
+        "dueDate": "2026-11-21",
+        "knownAt": "2026-11-01T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "paper-open",
+        "clientId": "paper",
+        "amount": "300000000",
+        "dueDate": "2026-10-25",
+        "knownAt": "2026-10-05T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "cedar-dec",
+        "clientId": "cedar",
+        "amount": "1800000000",
+        "dueDate": "2026-12-10",
+        "knownAt": "2026-11-20T06:00:00Z",
+        "provenance": "fictional"
+      }
+    ],
+    "receipts": [
+      {
+        "id": "receipt:cedar-may:full",
+        "transferId": "fictional:cedar-may:full:balance-0",
+        "digest": "fictional:cedar-may:full",
+        "amount": "1800000000",
+        "asset": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "recipient": "fictional-wallet",
+        "status": "success",
+        "occurredAt": "2026-05-17T06:00:00Z",
+        "knownAt": "2026-05-17T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "receipt:cedar-jun:full",
+        "transferId": "fictional:cedar-jun:full:balance-0",
+        "digest": "fictional:cedar-jun:full",
+        "amount": "1800000000",
+        "asset": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "recipient": "fictional-wallet",
+        "status": "success",
+        "occurredAt": "2026-06-18T06:00:00Z",
+        "knownAt": "2026-06-18T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "receipt:cedar-jul:full",
+        "transferId": "fictional:cedar-jul:full:balance-0",
+        "digest": "fictional:cedar-jul:full",
+        "amount": "1800000000",
+        "asset": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "recipient": "fictional-wallet",
+        "status": "success",
+        "occurredAt": "2026-07-19T06:00:00Z",
+        "knownAt": "2026-07-19T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "receipt:cedar-aug:full",
+        "transferId": "fictional:cedar-aug:full:balance-0",
+        "digest": "fictional:cedar-aug:full",
+        "amount": "1800000000",
+        "asset": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "recipient": "fictional-wallet",
+        "status": "success",
+        "occurredAt": "2026-08-18T06:00:00Z",
+        "knownAt": "2026-08-18T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "receipt:cedar-sep:a",
+        "transferId": "fictional:cedar-sep:a:balance-0",
+        "digest": "fictional:cedar-sep:a",
+        "amount": "700000000",
+        "asset": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "recipient": "fictional-wallet",
+        "status": "success",
+        "occurredAt": "2026-09-14T06:00:00Z",
+        "knownAt": "2026-09-14T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "receipt:cedar-sep:b",
+        "transferId": "fictional:cedar-sep:b:balance-0",
+        "digest": "fictional:cedar-sep:b",
+        "amount": "1100000000",
+        "asset": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "recipient": "fictional-wallet",
+        "status": "success",
+        "occurredAt": "2026-09-17T06:00:00Z",
+        "knownAt": "2026-09-17T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "receipt:cedar-oct:full",
+        "transferId": "fictional:cedar-oct:full:balance-0",
+        "digest": "fictional:cedar-oct:full",
+        "amount": "1800000000",
+        "asset": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "recipient": "fictional-wallet",
+        "status": "success",
+        "occurredAt": "2026-10-18T06:00:00Z",
+        "knownAt": "2026-10-18T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "receipt:aster-jul:full",
+        "transferId": "fictional:aster-jul:full:balance-0",
+        "digest": "fictional:aster-jul:full",
+        "amount": "500000000",
+        "asset": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "recipient": "fictional-wallet",
+        "status": "success",
+        "occurredAt": "2026-07-12T06:00:00Z",
+        "knownAt": "2026-07-12T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "receipt:aster-aug:full",
+        "transferId": "fictional:aster-aug:full:balance-0",
+        "digest": "fictional:aster-aug:full",
+        "amount": "500000000",
+        "asset": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "recipient": "fictional-wallet",
+        "status": "success",
+        "occurredAt": "2026-08-13T06:00:00Z",
+        "knownAt": "2026-08-13T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "receipt:aster-sep:full",
+        "transferId": "fictional:aster-sep:full:balance-0",
+        "digest": "fictional:aster-sep:full",
+        "amount": "500000000",
+        "asset": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "recipient": "fictional-wallet",
+        "status": "success",
+        "occurredAt": "2026-09-11T06:00:00Z",
+        "knownAt": "2026-09-11T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "receipt:aster-oct:full",
+        "transferId": "fictional:aster-oct:full:balance-0",
+        "digest": "fictional:aster-oct:full",
+        "amount": "500000000",
+        "asset": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "recipient": "fictional-wallet",
+        "status": "success",
+        "occurredAt": "2026-10-12T06:00:00Z",
+        "knownAt": "2026-10-12T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "receipt:paper-aug:full",
+        "transferId": "fictional:paper-aug:full:balance-0",
+        "digest": "fictional:paper-aug:full",
+        "amount": "400000000",
+        "asset": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "recipient": "fictional-wallet",
+        "status": "success",
+        "occurredAt": "2026-08-15T06:00:00Z",
+        "knownAt": "2026-08-15T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "receipt:paper-sep:full",
+        "transferId": "fictional:paper-sep:full:balance-0",
+        "digest": "fictional:paper-sep:full",
+        "amount": "400000000",
+        "asset": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "recipient": "fictional-wallet",
+        "status": "success",
+        "occurredAt": "2026-09-25T06:00:00Z",
+        "knownAt": "2026-09-25T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "receipt:paper-oct:full",
+        "transferId": "fictional:paper-oct:full:balance-0",
+        "digest": "fictional:paper-oct:full",
+        "amount": "400000000",
+        "asset": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+        "recipient": "fictional-wallet",
+        "status": "success",
+        "occurredAt": "2026-10-16T06:00:00Z",
+        "knownAt": "2026-10-16T06:00:00Z",
+        "provenance": "fictional"
+      }
+    ],
+    "allocations": [
+      {
+        "id": "allocation:cedar-may:full",
+        "receiptId": "receipt:cedar-may:full",
+        "invoiceId": "cedar-may",
+        "amount": "1800000000",
+        "confirmed": true,
+        "knownAt": "2026-05-17T06:00:00Z"
+      },
+      {
+        "id": "allocation:cedar-jun:full",
+        "receiptId": "receipt:cedar-jun:full",
+        "invoiceId": "cedar-jun",
+        "amount": "1800000000",
+        "confirmed": true,
+        "knownAt": "2026-06-18T06:00:00Z"
+      },
+      {
+        "id": "allocation:cedar-jul:full",
+        "receiptId": "receipt:cedar-jul:full",
+        "invoiceId": "cedar-jul",
+        "amount": "1800000000",
+        "confirmed": true,
+        "knownAt": "2026-07-19T06:00:00Z"
+      },
+      {
+        "id": "allocation:cedar-aug:full",
+        "receiptId": "receipt:cedar-aug:full",
+        "invoiceId": "cedar-aug",
+        "amount": "1800000000",
+        "confirmed": true,
+        "knownAt": "2026-08-18T06:00:00Z"
+      },
+      {
+        "id": "allocation:cedar-sep:a",
+        "receiptId": "receipt:cedar-sep:a",
+        "invoiceId": "cedar-sep",
+        "amount": "700000000",
+        "confirmed": true,
+        "knownAt": "2026-09-14T06:00:00Z"
+      },
+      {
+        "id": "allocation:cedar-sep:b",
+        "receiptId": "receipt:cedar-sep:b",
+        "invoiceId": "cedar-sep",
+        "amount": "1100000000",
+        "confirmed": true,
+        "knownAt": "2026-09-17T06:00:00Z"
+      },
+      {
+        "id": "allocation:cedar-oct:full",
+        "receiptId": "receipt:cedar-oct:full",
+        "invoiceId": "cedar-oct",
+        "amount": "1800000000",
+        "confirmed": true,
+        "knownAt": "2026-10-18T06:00:00Z"
+      },
+      {
+        "id": "allocation:aster-jul:full",
+        "receiptId": "receipt:aster-jul:full",
+        "invoiceId": "aster-jul",
+        "amount": "500000000",
+        "confirmed": true,
+        "knownAt": "2026-07-12T06:00:00Z"
+      },
+      {
+        "id": "allocation:aster-aug:full",
+        "receiptId": "receipt:aster-aug:full",
+        "invoiceId": "aster-aug",
+        "amount": "500000000",
+        "confirmed": true,
+        "knownAt": "2026-08-13T06:00:00Z"
+      },
+      {
+        "id": "allocation:aster-sep:full",
+        "receiptId": "receipt:aster-sep:full",
+        "invoiceId": "aster-sep",
+        "amount": "500000000",
+        "confirmed": true,
+        "knownAt": "2026-09-11T06:00:00Z"
+      },
+      {
+        "id": "allocation:aster-oct:full",
+        "receiptId": "receipt:aster-oct:full",
+        "invoiceId": "aster-oct",
+        "amount": "500000000",
+        "confirmed": true,
+        "knownAt": "2026-10-12T06:00:00Z"
+      },
+      {
+        "id": "allocation:paper-aug:full",
+        "receiptId": "receipt:paper-aug:full",
+        "invoiceId": "paper-aug",
+        "amount": "400000000",
+        "confirmed": true,
+        "knownAt": "2026-08-15T06:00:00Z"
+      },
+      {
+        "id": "allocation:paper-sep:full",
+        "receiptId": "receipt:paper-sep:full",
+        "invoiceId": "paper-sep",
+        "amount": "400000000",
+        "confirmed": true,
+        "knownAt": "2026-09-25T06:00:00Z"
+      },
+      {
+        "id": "allocation:paper-oct:full",
+        "receiptId": "receipt:paper-oct:full",
+        "invoiceId": "paper-oct",
+        "amount": "400000000",
+        "confirmed": true,
+        "knownAt": "2026-10-16T06:00:00Z"
+      }
+    ],
+    "obligations": [
+      {
+        "id": "historic-living-0",
+        "name": "Historical living expenses",
+        "amount": "2300000000",
+        "dueDate": "2026-05-25",
+        "knownAt": "2026-05-01T00:00:00Z",
+        "paidAt": "2026-05-25T07:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "historic-living-1",
+        "name": "Historical living expenses",
+        "amount": "2300000000",
+        "dueDate": "2026-06-25",
+        "knownAt": "2026-05-01T00:00:00Z",
+        "paidAt": "2026-06-25T07:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "historic-living-2",
+        "name": "Historical living expenses",
+        "amount": "2300000000",
+        "dueDate": "2026-07-25",
+        "knownAt": "2026-05-01T00:00:00Z",
+        "paidAt": "2026-07-25T07:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "historic-living-3",
+        "name": "Historical living expenses",
+        "amount": "2300000000",
+        "dueDate": "2026-08-25",
+        "knownAt": "2026-05-01T00:00:00Z",
+        "paidAt": "2026-08-25T07:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "historic-living-4",
+        "name": "Historical living expenses",
+        "amount": "2400000000",
+        "dueDate": "2026-09-25",
+        "knownAt": "2026-05-01T00:00:00Z",
+        "paidAt": "2026-09-25T07:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "historic-living-5",
+        "name": "Historical living expenses",
+        "amount": "2400000000",
+        "dueDate": "2026-10-30",
+        "knownAt": "2026-05-01T00:00:00Z",
+        "paidAt": "2026-10-30T07:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "groceries-1",
+        "name": "Groceries",
+        "amount": "85000000",
+        "dueDate": "2026-11-07",
+        "knownAt": "2026-11-01T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "rent",
+        "name": "Rent",
+        "amount": "1100000000",
+        "dueDate": "2026-11-12",
+        "knownAt": "2026-11-01T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "utilities",
+        "name": "Utilities",
+        "amount": "120000000",
+        "dueDate": "2026-11-15",
+        "knownAt": "2026-11-01T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "groceries-2",
+        "name": "Groceries",
+        "amount": "95000000",
+        "dueDate": "2026-11-22",
+        "knownAt": "2026-11-01T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "internet",
+        "name": "Internet",
+        "amount": "45000000",
+        "dueDate": "2026-11-26",
+        "knownAt": "2026-11-01T06:00:00Z",
+        "provenance": "fictional"
+      },
+      {
+        "id": "groceries-3",
+        "name": "Groceries",
+        "amount": "90000000",
+        "dueDate": "2026-11-29",
+        "knownAt": "2026-11-01T06:00:00Z",
+        "provenance": "fictional"
+      }
+    ],
+    "corrections": [
+      {
+        "id": "correction:paper-sep-reimbursement:curated-v1",
+        "receiptId": "receipt:paper-sep:full",
+        "kind": "reimbursement",
+        "reason": "Authored sample correction: this receipt repaid shared travel costs and was not payment for the September expected income.",
+        "occurredAt": "2026-11-05T06:00:00Z",
+        "knownAt": "2026-11-05T06:00:00Z",
+        "effectiveVersion": 1
+      }
+    ]
+  }
+}

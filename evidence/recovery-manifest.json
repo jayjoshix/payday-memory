@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "recordType": "manifest",
+  "datasetId": "payday-memory-fictional-v1-corrected-v1",
+  "id": "manifest:payday-memory-fictional-v1-corrected-v1:c2121d0bb863565155b81e9be569bbedc8e592336632eb3a93090b8d1bc6a79e",
+  "createdAt": "2026-11-08T12:24:07.720Z",
+  "entries": [
+    {
+      "id": "dataset:payday-memory-fictional-v1-corrected-v1",
+      "sha256": "5add33a20c1723c3fc133b1e5a00d08af0e03360764cbadb9c3d321e299b6490",
+      "blobId": "-v2tDEN7FX-NFZBkTvjwP563tySvbaLqhkL9w-2tm9M"
+    },
+    {
+      "id": "observation:receipt:cedar-jul:full",
+      "sha256": "d7ac0d3a1c39af94b6f25696e32fe519152345426abaf36094b84d1d7deb4371",
+      "blobId": "gqMrq73a9JkjwtwX1gcLqXOONo7KLX8HrvvACOXTheM"
+    },
+    {
+      "id": "observation:receipt:cedar-aug:full",
+      "sha256": "9d02d1597c3ed2eb7389afea43d2e3fca93da8f83a51e018d5d61212e03325e2",
+      "blobId": "S8gb9hqXrJ_pxfc_2Y4VT044knEgXDwrKTXZQIOswe4"
+    },
+    {
+      "id": "observation:receipt:cedar-sep:a",
+      "sha256": "4a362b579abdb19610c1d068a271dabf4ac288d1b3f743de236715a350147dc2",
+      "blobId": "lEzqLv708nCXMiWdGqRyIJG-0fHsQp4w5A6KGX20wHc"
+    },
+    {
+      "id": "observation:receipt:cedar-sep:b",
+      "sha256": "89074bff1ce695393e241a997de8571b363487bf7292aab58654253cc8effa5f",
+      "blobId": "zelM3Z18Tn9xTmA6p8vE3LZNS8HiPfXYSWtMsnJ4Vpc"
+    },
+    {
+      "id": "observation:receipt:cedar-oct:full",
+      "sha256": "83b86eeb54e299bb98d42cf56f2f2949f37679f56b09b5f9b8e659d614ebd23e",
+      "blobId": "z2tbOeWWPKuMr0Qr57cgGILXZ4yyb-QRud_yFCthvJc"
+    },
+    {
+      "id": "observation:receipt:aster-jul:full",
+      "sha256": "a06cb9601b1c1bfa20e8a7a96bb2b03ae256623cfb38ce8e40db6ee6b5d60d76",
+      "blobId": "qOSAzpS79vag0KcrF4dqFrtMn09BKMUr2K2LHYBTvt4"
+    },
+    {
+      "id": "observation:receipt:aster-aug:full",
+      "sha256": "e4d56c99fb91fb473182845b502164c88a4106cf1e5f070bd4053d50b86ebf0d",
+      "blobId": "cXZ7QVf7O4NNvXpZv_g-dxG0_N33BlIC-cLB8imUJNY"
+    },
+    {
+      "id": "observation:receipt:aster-sep:full",
+      "sha256": "c930126ab85ae40fe8dfbbca8552df096fb3d71cb890d121be09f8a01591fd18",
+      "blobId": "iGrBqDdlFCstba07WQcd5tSUVvnI-7E2ux2SBZgg3Mk"
+    },
+    {
+      "id": "observation:receipt:aster-oct:full",
+      "sha256": "6c32bd1a23394919dc4401b3668c63627cec2b0c430bad57beee0399d2b24f2b",
+      "blobId": "ZDhPu7wpnogyfAomjgpduODO-BniO-rEcgo4iI5JePI"
+    },
+    {
+      "id": "observation:receipt:paper-aug:full",
+      "sha256": "5d0517bc5ff360c12b87bce55f57db0df1a26973b1bc41a695f902a40186e251",
+      "blobId": "6PRVwrkMyEhsDp3HdKIPnVzPUBfEtbaULLEXrLElubE"
+    },
+    {
+      "id": "observation:receipt:paper-sep:full",
+      "sha256": "38ebfe398cb7b16f5f605f00224e7a1acec5e1f4b9e3d5727e01ae6929e74136",
+      "blobId": "uVFAUj2RhAIVFxIGHBz11BHsO1-WIB2vp6iKLWf4ngo"
+    },
+    {
+      "id": "observation:receipt:paper-oct:full",
+      "sha256": "56a5da0005c597a69c3dbe9f6deae29364cbf391b7930743b962da534ba893cb",
+      "blobId": "l4fEIbrjZ2UZxPCouRNWPxhDt6SrAbwAVJLCuJBcxQQ"
+    },
+    {
+      "id": "correction:paper-sep-reimbursement:curated-v1",
+      "sha256": "cf2d2d5346898bd664c85df50c76f13b8409a74340eff9a43a3f21d9e7c57586",
+      "blobId": "W7NbMA_GdpTYiA8gcsay0GF7KdfCpU0XSzIWaYe-vxY"
+    },
+    {
+      "id": "lesson:aster:2026-11-05:v10",
+      "sha256": "03464a4aac61096fab47c756f529e0d360c0b695e7867998bdbeea8dd1e30de2",
+      "blobId": "1rBCKcq-M8G1E9rBnLmTz4kJ3fSqLVFkpB1CjmhsgRY"
+    },
+    {
+      "id": "lesson:cedar:2026-11-05:v15",
+      "sha256": "39a0a48d8771bef4c4eca4f05884e2dcc341298e4c2490dbc1902719202a1a23",
+      "blobId": "XAzn907L2qGkgqIX-64C7kbXp880pWTuJPzGKg3q7dc"
+    },
+    {
+      "id": "lesson:paper:2026-11-05:v9",
+      "sha256": "ff97a054c50ffbf35b7b783c64aa2167688335338855f8f00033b6671e49c460",
+      "blobId": "3zLN20A6a_3CUjprHINtlUHelsQsmCAayzqQNLNg3rs"
+    },
+    {
+      "id": "observation:receipt:cedar-may:full",
+      "sha256": "0e8ae793e76e2a49a3b869e2f55134dc0a058a7388bf5acaa534b1952d022dbe",
+      "blobId": "tdydS12PeN6GiFknfMxNe2DXYEukhezWoNX9mmvbt3U"
+    },
+    {
+      "id": "observation:receipt:cedar-jun:full",
+      "sha256": "0bf28a80310d4bf3d088fab91effcc8ea6fa87716d28489d8d10c856b2c85dee",
+      "blobId": "xw7YZleYgsg0uLqWZZZhtcYGUgS4nkDAI86o0hfzlTM"
+    },
+    {
+      "id": "lesson:paper:2026-11-04:v8",
+      "sha256": "be2cd65905a8d01c94a2b51a93581a20f3b35367e68f2750868bb0b38dce0256",
+      "blobId": "bbNDXdSm3HMTn5SDnNAKggyTivNhWkW9bI22IuGGTXE"
+    }
+  ]
+}

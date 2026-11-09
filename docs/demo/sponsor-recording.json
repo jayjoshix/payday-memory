@@ -1,0 +1,28 @@
+{
+  "recordedAt": "2026-11-08T12:48:01.507Z",
+  "completedAt": "2026-11-08T12:50:48.867Z",
+  "file": "docs/demo/payday-memory-sponsor-uncut.webm",
+  "sourceAvailability": "Original genuine operator recording retained locally, excluded from Git. This receipt preserves its actual results and timestamps.",
+  "completed": true,
+  "fictionalPlanningData": true,
+  "mainnetWritesDuringRecording": 0,
+  "operatorMainnetRecoveryDuringRecording": true,
+  "recoveryVerifiedAt": "2026-11-08T12:49:43.072Z",
+  "recoveredDatasetHash": "9bdaa58aa5d2480313ffcf9022a731a83a37aad0938bfbd4f12b355b9a95921e",
+  "confirmedRecordCount": 20,
+  "tatumEvidence": "Genuine previously captured read-only balance; not refreshed by the browser",
+  "retentionThroughJudging": "verified",
+  "consoleErrors": [],
+  "presentation": {
+    "file": "payday-memory-sponsor-demo.webm",
+    "availability": "Obsolete presentation removed during cleanup; it had a viewport defect. Use payday-memory-submission.webm for the current captioned demonstration.",
+    "sourceDurationSeconds": 168.24,
+    "startupTrimSeconds": 8.24,
+    "durationSeconds": 160,
+    "codec": "VP9",
+    "fps": 12,
+    "bytes": 2224020,
+    "edits": "Initial startup trim only; remaining application run is continuous actual footage.",
+    "firstFrameInspected": true
+  }
+}

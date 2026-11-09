@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-09T14:58:24.366150+00:00",
+  "presentation": "docs/demo/payday-memory-submission.webm",
+  "sha256": "8240f12f87b28f02c5d7e66e8840a4d5bf53768b6f12861edfb2660b242b4b54",
+  "sourceFile": "docs/demo/payday-memory-submission-uncut.webm",
+  "sourceAvailability": "Local-only original; excluded from Git to keep the public repository compact.",
+  "sourceSha256": "c1decff3a86179c640ab410e0d158221cdb66e7a5414b39274e34a9e07de63f5",
+  "durationSeconds": 165.5,
+  "dimensions": [
+    1440,
+    1080
+  ],
+  "fps": 12.0,
+  "bytes": 3485225,
+  "codec": "vp9",
+  "audio": false,
+  "captionsEmbedded": true,
+  "startupTrimSeconds": 2.6,
+  "continuousAfterStartupTrim": true,
+  "automatedChecks": {
+    "status": "passed",
+    "checkedFrameCount": 166,
+    "sampleIntervalSeconds": 1,
+    "failedSeconds": [],
+    "checks": [
+      "caption-band contrast",
+      "large neutral-gray fill",
+      "fixed dimensions",
+      "duration and codec"
+    ],
+    "fixedApplicationViewportChecks": 13,
+    "consoleErrors": [],
+    "externalBrowserRequests": []
+  },
+  "visualReview": {
+    "status": "passed",
+    "method": "Sampled still frames, full-size chapter frames and contact sheet; independent second review of correction, exception, evaluation and ending.",
+    "fullSizeFrameSeconds": [
+      0,
+      16,
+      44,
+      55,
+      76,
+      92,
+      116,
+      128,
+      144,
+      165
+    ],
+    "contactSheetFrameSeconds": [
+      0,
+      12,
+      28,
+      44,
+      60,
+      76,
+      92,
+      108,
+      124,
+      140,
+      156,
+      165
+    ],
+    "checks": [
+      "readable embedded captions",
+      "no caption clipping",
+      "correct screen context",
+      "proof identifiers visible",
+      "no old grey-area viewport defect"
+    ],
+    "limitations": "Not a continuous manual playback or audio review. The recording intentionally has no narration. Pixel heuristics do not validate caption semantics."
+  },
+  "provenance": {
+    "mode": "captured",
+    "mainnetRecoveryCapturedAt": "2026-11-08T12:49:43.072Z",
+    "tatumCapturedAt": "2026-11-08T12:44:45.757Z",
+    "freshMainnetRecoveryDuringRecording": false,
+    "sponsorRequestsDuringRecording": 0,
+    "mainnetWritesDuringRecording": 0,
+    "localOfflineIntegrityCheck": {
+      "startedAt": "2026-11-09T14:46:19.883Z",
+      "completedAt": "2026-11-09T14:46:23.482Z",
+      "status": "captured-artifacts-verified-offline",
+      "sourceRecords": 20,
+      "manifestBlobs": 1,
+      "recoveredDatasetHash": "9bdaa58aa5d2480313ffcf9022a731a83a37aad0938bfbd4f12b355b9a95921e",
+      "publishedContentUnchanged": true,
+      "recordedRetentionThroughJudging": "verified",
+      "sponsorRequestsMade": 0,
+      "currentProviderAvailability": "not checked"
+    }
+  },
+  "contactSheet": "docs/demo/submission-contact-sheet.jpg",
+  "previewFrame": "docs/demo/submission-start-frame.png",
+  "publicUrls": []
+}

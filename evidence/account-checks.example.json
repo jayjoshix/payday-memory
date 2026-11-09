@@ -1,0 +1,20 @@
+{
+  "checkedAt": "REPLACE_WITH_ACTUAL_UTC_CHECK_TIME",
+  "tatum": {
+    "freePlanConfirmed": false,
+    "autoUpgradeDisabled": false,
+    "noPaidBilling": false,
+    "remainingCredits": 0,
+    "creditCostUpperBoundPerRead": 0,
+    "methodsConfirmed": [
+      "sui.rpc.v2.StateService/GetBalance",
+      "sui.rpc.v2.LedgerService/GetTransaction"
+    ]
+  },
+  "memory": {
+    "hostedSetupFree": false,
+    "managedMainnetSponsorship": false,
+    "retentionThrough": "UNVERIFIED",
+    "freeLimitRecords": 0
+  }
+}

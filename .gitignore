@@ -1,0 +1,35 @@
+node_modules/
+dist/
+.data/
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+*.log
+data/
+.research/
+*.tgz
+docs/demo/raw/
+.tooling/
+artifacts/
+
+# Keep original recordings locally; publish the compact captioned demo.
+docs/demo/*-uncut.webm
+docs/demo/payday-memory-sponsor-demo.webm
+
+# Browser tests regenerate these. Keep only curated documentation images.
+docs/screenshots/*
+!docs/screenshots/overview-desktop.png
+!docs/screenshots/overview-mobile.png
+!docs/screenshots/memory-desktop.png
+!docs/screenshots/memory-mainnet-static.png
+!docs/screenshots/timeline-desktop.png
+!docs/screenshots/exceptional-delay-static.png
+
+coverage/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak

@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-11-08T12:49:43.072Z",
+  "network": "sui-mainnet",
+  "status": "sponsor-round-trips-and-recovery-confirmed",
+  "tatum": {
+    "status": "confirmed",
+    "reason": "Genuine read-only Tatum balance captured. Expected payments, client aliases and obligations remain fictional assumptions.",
+    "balanceSnapshot": {
+      "amount": "0",
+      "coinType": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+      "address": "0x33e9e21fab759fd5c166c2e1904b5561fc1b69a3c758bc904734be03ad7f72d3",
+      "observedAt": "2026-11-08T12:44:45.757Z",
+      "source": "chain-observed",
+      "provider": "Tatum",
+      "network": "sui-mainnet",
+      "stale": false
+    },
+    "receipts": [],
+    "requestsUsed": 1,
+    "coverage": {
+      "mode": "one-public-address-balance-only",
+      "completeWalletHistory": false,
+      "statement": "No transaction history was scanned. Wallet ownership is not asserted; the planning layer remains hypothetical."
+    },
+    "accountCostCheck": {
+      "checkedAt": "2026-11-08T11:51:48.588Z",
+      "freePlanConfirmed": true,
+      "noPaymentMethod": true,
+      "autoUpgradeDisabled": true,
+      "remainingCredits": 100000,
+      "source": "Builder dashboard attestation; no direct dashboard inspection"
+    },
+    "lastFailure": {
+      "code": "timeout",
+      "message": "Provider timed out. Retain the previous snapshot as stale; no success was recorded.",
+      "at": "2026-11-08T11:52:14.312Z"
+    },
+    "requestsAttempted": 1,
+    "maximumRequests": 1,
+    "provider": "Tatum",
+    "network": "sui-mainnet",
+    "capturedAt": "2026-11-08T12:44:45.757Z",
+    "documentedCreditUpperBound": 2
+  },
+  "memory": {
+    "status": "confirmed",
+    "provider": "Walrus Memory",
+    "managedRelayer": "https://relayer.memory.walrus.xyz",
+    "confirmedCount": 20,
+    "requiredCount": 10,
+    "records": [
+      {
+        "id": "dataset:payday-memory-fictional-v1-corrected-v1",
+        "state": "confirmed",
+        "jobId": "2c009966-f1d7-4f3d-b7ec-7132c8f728b8",
+        "blobId": "-v2tDEN7FX-NFZBkTvjwP563tySvbaLqhkL9w-2tm9M",
+        "verifiedAt": "2026-11-08T12:04:53.521Z",
+        "payloadHash": "5add33a20c1723c3fc133b1e5a00d08af0e03360764cbadb9c3d321e299b6490",
+        "error": null
+      },
+      {
+        "id": "observation:receipt:cedar-jul:full",
+        "state": "confirmed",
+        "jobId": "f7375b5f-300e-4ba0-bc03-6a0efbd001d6",
+        "blobId": "gqMrq73a9JkjwtwX1gcLqXOONo7KLX8HrvvACOXTheM",
+        "verifiedAt": "2026-11-08T12:03:01.993Z",
+        "payloadHash": "d7ac0d3a1c39af94b6f25696e32fe519152345426abaf36094b84d1d7deb4371",
+        "error": null
+      },
+      {
+        "id": "observation:receipt:cedar-aug:full",
+        "state": "confirmed",
+        "jobId": "c27fb1fc-683a-429c-a57e-ca13953635f8",
+        "blobId": "S8gb9hqXrJ_pxfc_2Y4VT044knEgXDwrKTXZQIOswe4",
+        "verifiedAt": "2026-11-08T12:04:53.650Z",
+        "payloadHash": "9d02d1597c3ed2eb7389afea43d2e3fca93da8f83a51e018d5d61212e03325e2",
+        "error": null
+      },
+      {
+        "id": "observation:receipt:cedar-sep:a",
+        "state": "confirmed",
+        "jobId": "f7dc2a85-946c-48f2-9ba0-873aa3e20cbe",
+        "blobId": "lEzqLv708nCXMiWdGqRyIJG-0fHsQp4w5A6KGX20wHc",
+        "verifiedAt": "2026-11-08T12:04:53.794Z",
+        "payloadHash": "4a362b579abdb19610c1d068a271dabf4ac288d1b3f743de236715a350147dc2",
+        "error": null
+      },
+      {
+        "id": "observation:receipt:cedar-sep:b",
+        "state": "confirmed",
+        "jobId": "8dfc459e-2c19-4005-ab5c-28c04767e935",
+        "blobId": "zelM3Z18Tn9xTmA6p8vE3LZNS8HiPfXYSWtMsnJ4Vpc",
+        "verifiedAt": "2026-11-08T12:07:22.323Z",
+        "payloadHash": "89074bff1ce695393e241a997de8571b363487bf7292aab58654253cc8effa5f",
+        "error": null
+      },
+      {
+        "id": "observation:receipt:cedar-oct:full",
+        "state": "confirmed",
+        "jobId": "7995800b-030a-494c-892d-3f3d9c3c0090",
+        "blobId": "z2tbOeWWPKuMr0Qr57cgGILXZ4yyb-QRud_yFCthvJc",
+        "verifiedAt": "2026-11-08T12:09:23.425Z",
+        "payloadHash": "83b86eeb54e299bb98d42cf56f2f2949f37679f56b09b5f9b8e659d614ebd23e",
+        "error": null
+      },
+      {
+        "id": "observation:receipt:aster-jul:full",
+        "state": "confirmed",
+        "jobId": "93108fd9-65d6-46c9-b57f-fb3c73db81f3",
+        "blobId": "qOSAzpS79vag0KcrF4dqFrtMn09BKMUr2K2LHYBTvt4",
+        "verifiedAt": "2026-11-08T12:09:23.564Z",
+        "payloadHash": "a06cb9601b1c1bfa20e8a7a96bb2b03ae256623cfb38ce8e40db6ee6b5d60d76",
+        "error": null
+      },
+      {
+        "id": "observation:receipt:aster-aug:full",
+        "state": "confirmed",
+        "jobId": "610fc395-5599-4719-9e52-af3745503cf1",
+        "blobId": "cXZ7QVf7O4NNvXpZv_g-dxG0_N33BlIC-cLB8imUJNY",
+        "verifiedAt": "2026-11-08T12:09:23.699Z",
+        "payloadHash": "e4d56c99fb91fb473182845b502164c88a4106cf1e5f070bd4053d50b86ebf0d",
+        "error": null
+      },
+      {
+        "id": "observation:receipt:aster-sep:full",
+        "state": "confirmed",
+        "jobId": "cb856c7c-1606-4a0f-a7a3-4e3b63f8869e",
+        "blobId": "iGrBqDdlFCstba07WQcd5tSUVvnI-7E2ux2SBZgg3Mk",
+        "verifiedAt": "2026-11-08T12:11:57.622Z",
+        "payloadHash": "c930126ab85ae40fe8dfbbca8552df096fb3d71cb890d121be09f8a01591fd18",
+        "error": null
+      },
+      {
+        "id": "observation:receipt:aster-oct:full",
+        "state": "confirmed",
+        "jobId": "ee994351-f073-4847-ac56-951e44a75dd7",
+        "blobId": "ZDhPu7wpnogyfAomjgpduODO-BniO-rEcgo4iI5JePI",
+        "verifiedAt": "2026-11-08T12:13:37.717Z",
+        "payloadHash": "6c32bd1a23394919dc4401b3668c63627cec2b0c430bad57beee0399d2b24f2b",
+        "error": null
+      },
+      {
+        "id": "observation:receipt:paper-aug:full",
+        "state": "confirmed",
+        "jobId": "b8069c6f-8c17-4078-a463-9b39424b76e8",
+        "blobId": "6PRVwrkMyEhsDp3HdKIPnVzPUBfEtbaULLEXrLElubE",
+        "verifiedAt": "2026-11-08T12:13:37.884Z",
+        "payloadHash": "5d0517bc5ff360c12b87bce55f57db0df1a26973b1bc41a695f902a40186e251",
+        "error": null
+      },
+      {
+        "id": "observation:receipt:paper-sep:full",
+        "state": "confirmed",
+        "jobId": "3c849bd9-ca46-46f0-9cda-c8663efc1a3d",
+        "blobId": "uVFAUj2RhAIVFxIGHBz11BHsO1-WIB2vp6iKLWf4ngo",
+        "verifiedAt": "2026-11-08T12:13:38.053Z",
+        "payloadHash": "38ebfe398cb7b16f5f605f00224e7a1acec5e1f4b9e3d5727e01ae6929e74136",
+        "error": null
+      },
+      {
+        "id": "observation:receipt:paper-oct:full",
+        "state": "confirmed",
+        "jobId": "222177f0-151d-412f-9299-43f19cd3d399",
+        "blobId": "l4fEIbrjZ2UZxPCouRNWPxhDt6SrAbwAVJLCuJBcxQQ",
+        "verifiedAt": "2026-11-08T12:14:36.142Z",
+        "payloadHash": "56a5da0005c597a69c3dbe9f6deae29364cbf391b7930743b962da534ba893cb",
+        "error": null
+      },
+      {
+        "id": "correction:paper-sep-reimbursement:curated-v1",
+        "state": "confirmed",
+        "jobId": "4c58afe4-3e04-4192-b88f-272e853dda6a",
+        "blobId": "W7NbMA_GdpTYiA8gcsay0GF7KdfCpU0XSzIWaYe-vxY",
+        "verifiedAt": "2026-11-08T12:14:54.420Z",
+        "payloadHash": "cf2d2d5346898bd664c85df50c76f13b8409a74340eff9a43a3f21d9e7c57586",
+        "error": null
+      },
+      {
+        "id": "lesson:aster:2026-11-05:v10",
+        "state": "confirmed",
+        "jobId": "408565b6-8918-42d3-baa6-6422f8699b96",
+        "blobId": "1rBCKcq-M8G1E9rBnLmTz4kJ3fSqLVFkpB1CjmhsgRY",
+        "verifiedAt": "2026-11-08T12:17:09.872Z",
+        "payloadHash": "03464a4aac61096fab47c756f529e0d360c0b695e7867998bdbeea8dd1e30de2",
+        "error": null
+      },
+      {
+        "id": "lesson:cedar:2026-11-05:v15",
+        "state": "confirmed",
+        "jobId": "bd0ad48f-948e-4cb9-b38d-ea3b0d63d316",
+        "blobId": "XAzn907L2qGkgqIX-64C7kbXp880pWTuJPzGKg3q7dc",
+        "verifiedAt": "2026-11-08T12:17:10.018Z",
+        "payloadHash": "39a0a48d8771bef4c4eca4f05884e2dcc341298e4c2490dbc1902719202a1a23",
+        "error": null
+      },
+      {
+        "id": "lesson:paper:2026-11-05:v9",
+        "state": "confirmed",
+        "jobId": "6ffa25c4-af3f-4a19-b201-b87c65d625ba",
+        "blobId": "3zLN20A6a_3CUjprHINtlUHelsQsmCAayzqQNLNg3rs",
+        "verifiedAt": "2026-11-08T12:22:26.623Z",
+        "payloadHash": "ff97a054c50ffbf35b7b783c64aa2167688335338855f8f00033b6671e49c460",
+        "error": null
+      },
+      {
+        "id": "observation:receipt:cedar-may:full",
+        "state": "confirmed",
+        "jobId": "2a6a5688-6879-4776-9178-0a3000c25516",
+        "blobId": "tdydS12PeN6GiFknfMxNe2DXYEukhezWoNX9mmvbt3U",
+        "verifiedAt": "2026-11-08T12:22:26.766Z",
+        "payloadHash": "0e8ae793e76e2a49a3b869e2f55134dc0a058a7388bf5acaa534b1952d022dbe",
+        "error": null
+      },
+      {
+        "id": "observation:receipt:cedar-jun:full",
+        "state": "confirmed",
+        "jobId": "e863ff27-443d-4415-b12f-9e0234fde07f",
+        "blobId": "xw7YZleYgsg0uLqWZZZhtcYGUgS4nkDAI86o0hfzlTM",
+        "verifiedAt": "2026-11-08T12:23:52.860Z",
+        "payloadHash": "0bf28a80310d4bf3d088fab91effcc8ea6fa87716d28489d8d10c856b2c85dee",
+        "error": null
+      },
+      {
+        "id": "lesson:paper:2026-11-04:v8",
+        "state": "confirmed",
+        "jobId": "f6e99f8a-826c-4956-8bbb-5f9ea11e0b5d",
+        "blobId": "bbNDXdSm3HMTn5SDnNAKggyTivNhWkW9bI22IuGGTXE",
+        "verifiedAt": "2026-11-08T12:23:52.992Z",
+        "payloadHash": "be2cd65905a8d01c94a2b51a93581a20f3b35367e68f2750868bb0b38dce0256",
+        "error": null
+      }
+    ],
+    "recoveryStatus": "confirmed",
+    "reason": "20 fictional source records and their confirmed manifest were retrieved, hash-checked and reconstructed in an empty directory. Storage expiry through judging is verified.",
+    "accountAccessCheck": {
+      "status": "authenticated-read-confirmed",
+      "observedAt": "2026-11-08T11:23:18.578Z",
+      "provider": "Walrus Memory",
+      "network": "sui-mainnet",
+      "requestCount": 3,
+      "applicationMemoriesOnThisPage": 0,
+      "coverageComplete": true,
+      "recordContentsRetrieved": false,
+      "writesMade": 0,
+      "writeAllowance": "unverified",
+      "retentionThroughJudging": "unverified",
+      "runtime": "24.22.1",
+      "providerMetadataFields": [
+        "memory_count",
+        "storage_bytes",
+        "namespace",
+        "owner"
+      ],
+      "providerNumericMetadata": {
+        "memory_count": 0
+      },
+      "signedReadRequests": 2,
+      "accountScope": "dd836b90dda91edb0c420f81"
+    },
+    "accountAccessChecks": [
+      {
+        "status": "authenticated-read-confirmed",
+        "observedAt": "2026-11-08T11:06:13.951Z",
+        "provider": "Walrus Memory",
+        "network": "sui-mainnet",
+        "requestCount": 3,
+        "applicationMemoriesOnThisPage": 0,
+        "coverageComplete": true,
+        "recordContentsRetrieved": false,
+        "writesMade": 0,
+        "writeAllowance": "unverified",
+        "retentionThroughJudging": "unverified",
+        "runtime": "24.22.1",
+        "signedReadRequests": 2
+      },
+      {
+        "status": "authenticated-read-confirmed",
+        "observedAt": "2026-11-08T11:08:31.477Z",
+        "provider": "Walrus Memory",
+        "network": "sui-mainnet",
+        "requestCount": 3,
+        "applicationMemoriesOnThisPage": 0,
+        "coverageComplete": true,
+        "recordContentsRetrieved": false,
+        "writesMade": 0,
+        "writeAllowance": "unverified",
+        "retentionThroughJudging": "unverified",
+        "runtime": "24.22.1",
+        "providerMetadataFields": [
+          "memory_count",
+          "storage_bytes",
+          "namespace",
+          "owner"
+        ],
+        "providerNumericMetadata": {
+          "memory_count": 0
+        },
+        "signedReadRequests": 2,
+        "accountScope": "dd836b90dda91edb0c420f81"
+      },
+      {
+        "status": "authenticated-read-confirmed",
+        "observedAt": "2026-11-08T11:23:18.578Z",
+        "provider": "Walrus Memory",
+        "network": "sui-mainnet",
+        "requestCount": 3,
+        "applicationMemoriesOnThisPage": 0,
+        "coverageComplete": true,
+        "recordContentsRetrieved": false,
+        "writesMade": 0,
+        "writeAllowance": "unverified",
+        "retentionThroughJudging": "unverified",
+        "runtime": "24.22.1",
+        "providerMetadataFields": [
+          "memory_count",
+          "storage_bytes",
+          "namespace",
+          "owner"
+        ],
+        "providerNumericMetadata": {
+          "memory_count": 0
+        },
+        "signedReadRequests": 2,
+        "accountScope": "dd836b90dda91edb0c420f81"
+      }
+    ],
+    "localDelegatePairCheck": {
+      "matched": true,
+      "checkedAt": "2026-11-08T11:01:33.668Z",
+      "privateValuesLogged": false
+    },
+    "accountScope": "dd836b90dda91edb0c420f81",
+    "packageValidationTransport": {
+      "provider": "Tatum",
+      "method": "sui.rpc.v2.LedgerService/GetObject",
+      "configured": true,
+      "liveVerified": true,
+      "otherRpcProvidersContacted": false,
+      "lastObservedRead": {
+        "provider": "Tatum",
+        "network": "sui-mainnet",
+        "method": "sui.rpc.v2.LedgerService/GetObject",
+        "observedAt": "2026-11-08T12:49:36.770Z",
+        "packageId": "0xe7c16fbea0560e7057e2bf7422feaa4fb313749fc69c9e9092fac7a33b81d7f5",
+        "version": "1",
+        "requestsUsed": 1,
+        "readOnly": true
+      }
+    },
+    "freeLimits": {
+      "mode": "provider-enforced",
+      "publishedRemainingRecords": null,
+      "applicationWriteCap": 25
+    },
+    "network": "sui-mainnet",
+    "smokeRoundTrip": {
+      "checkedAt": "2026-11-08T11:57:23.132Z",
+      "state": "confirmed",
+      "retrieved": true,
+      "retention": {
+        "expiresAt": null,
+        "endEpoch": null,
+        "throughJudging": false
+      },
+      "maximumWrites": 1,
+      "publishedFreeAllowance": "not exposed; provider-enforced shared limits"
+    },
+    "namespace": "payday-memory-fictional-v1",
+    "datasetId": "payday-memory-fictional-v1-corrected-v1",
+    "manifestReceipt": {
+      "jobId": "b7cf817c-30cb-4905-a86c-0300ee34ed1b",
+      "blobId": "Z4gWat464lO9HkSnxf_ZZwkMaUT_-umk4SNYBiNCefU",
+      "verifiedAt": "2026-11-08T12:25:03.934Z",
+      "sha256": "b55c893933eb18c65f41721ade15f971d709b8825ada914287e7acb5d2324e66"
+    },
+    "recoveryVerifiedAt": "2026-11-08T12:49:43.072Z",
+    "recoveryRecords": 20,
+    "recoveredDatasetHash": "9bdaa58aa5d2480313ffcf9022a731a83a37aad0938bfbd4f12b355b9a95921e",
+    "retentionAssessment": {
+      "status": "verified",
+      "requiredThrough": "2026-11-17T23:59:59Z",
+      "checkedBlobCount": 21,
+      "unverifiedBlobIds": [],
+      "expiresBeforeJudgingBlobIds": [],
+      "throughJudgingVerified": true
+    },
+    "retention": [
+      {
+        "blobId": "gqMrq73a9JkjwtwX1gcLqXOONo7KLX8HrvvACOXTheM",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:00:26.242146Z"
+      },
+      {
+        "blobId": "S8gb9hqXrJ_pxfc_2Y4VT044knEgXDwrKTXZQIOswe4",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:06:32.965932Z"
+      },
+      {
+        "blobId": "-v2tDEN7FX-NFZBkTvjwP563tySvbaLqhkL9w-2tm9M",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:06:32.965932Z"
+      },
+      {
+        "blobId": "lEzqLv708nCXMiWdGqRyIJG-0fHsQp4w5A6KGX20wHc",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:06:32.965932Z"
+      },
+      {
+        "blobId": "zelM3Z18Tn9xTmA6p8vE3LZNS8HiPfXYSWtMsnJ4Vpc",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:10:10.810708Z"
+      },
+      {
+        "blobId": "cXZ7QVf7O4NNvXpZv_g-dxG0_N33BlIC-cLB8imUJNY",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:10:10.810708Z"
+      },
+      {
+        "blobId": "qOSAzpS79vag0KcrF4dqFrtMn09BKMUr2K2LHYBTvt4",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:10:10.810708Z"
+      },
+      {
+        "blobId": "z2tbOeWWPKuMr0Qr57cgGILXZ4yyb-QRud_yFCthvJc",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:10:10.810708Z"
+      },
+      {
+        "blobId": "iGrBqDdlFCstba07WQcd5tSUVvnI-7E2ux2SBZgg3Mk",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:10:10.810708Z"
+      },
+      {
+        "blobId": "uVFAUj2RhAIVFxIGHBz11BHsO1-WIB2vp6iKLWf4ngo",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:17:15.044792Z"
+      },
+      {
+        "blobId": "l4fEIbrjZ2UZxPCouRNWPxhDt6SrAbwAVJLCuJBcxQQ",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:17:15.044792Z"
+      },
+      {
+        "blobId": "ZDhPu7wpnogyfAomjgpduODO-BniO-rEcgo4iI5JePI",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:17:15.044792Z"
+      },
+      {
+        "blobId": "W7NbMA_GdpTYiA8gcsay0GF7KdfCpU0XSzIWaYe-vxY",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:17:15.044792Z"
+      },
+      {
+        "blobId": "6PRVwrkMyEhsDp3HdKIPnVzPUBfEtbaULLEXrLElubE",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:17:15.044792Z"
+      },
+      {
+        "blobId": "3zLN20A6a_3CUjprHINtlUHelsQsmCAayzqQNLNg3rs",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:21:20.418814Z"
+      },
+      {
+        "blobId": "tdydS12PeN6GiFknfMxNe2DXYEukhezWoNX9mmvbt3U",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:21:20.418814Z"
+      },
+      {
+        "blobId": "1rBCKcq-M8G1E9rBnLmTz4kJ3fSqLVFkpB1CjmhsgRY",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:21:20.418814Z"
+      },
+      {
+        "blobId": "XAzn907L2qGkgqIX-64C7kbXp880pWTuJPzGKg3q7dc",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:21:20.418814Z"
+      },
+      {
+        "blobId": "Z4gWat464lO9HkSnxf_ZZwkMaUT_-umk4SNYBiNCefU",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:25:02.848533Z"
+      },
+      {
+        "blobId": "xw7YZleYgsg0uLqWZZZhtcYGUgS4nkDAI86o0hfzlTM",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:25:02.848533Z"
+      },
+      {
+        "blobId": "bbNDXdSm3HMTn5SDnNAKggyTivNhWkW9bI22IuGGTXE",
+        "endEpoch": 58,
+        "expiresAt": "2027-06-06T12:25:02.848533Z"
+      }
+    ]
+  },
+  "claims": {
+    "fixture": "Authored fictional history. Actual Mainnet writes occurred during this build, not on historical fixture dates.",
+    "chain": "Genuine captured Tatum native USDC balance; no verified receipt or complete wallet-history claim.",
+    "storage": "20 source records and the separately completed manifest were genuinely retrieved from Mainnet; active corrected lessons were reconstructed in an empty directory."
+  },
+  "documentationChecks": {
+    "checkedAt": "2026-11-05T16:53:07Z",
+    "eventDeadline": "2026-11-10T17:00:00Z",
+    "judgingThrough": "2026-11-16",
+    "tatumSuiTransport": "native-gRPC",
+    "memoryRuntime": "Official quickstart requires Node22.23.4+,24.22.1+ or26.12.1+. Host24.14.0 can run the offline app; live Memory operations are blocked until patched."
+  },
+  "lastCheckAt": "2026-11-08T12:44:45.758Z",
+  "connectionSetup": {
+    "checkedAt": "2026-11-08T12:42:35.988Z",
+    "runtime": "24.22.1",
+    "runtimeSupportedForMemory": true,
+    "accountGates": {
+      "tatum": {
+        "status": "ready-for-explicit-check"
+      },
+      "memory": {
+        "status": "ready-for-explicit-check"
+      }
+    },
+    "authenticatedProviderCallsMade": 0,
+    "mainnetWritesMade": 0
+  },
+  "localRuntime": {
+    "version": "24.22.1",
+    "source": "Official Node Windows x64 distribution",
+    "archiveSha256": "d2046d28c2c3dcd211ac5145c0bf30e2047ef9dfb306693c8c6e2eccd8b95fa5",
+    "checksumVerified": true,
+    "systemInstallationChanged": false
+  },
+  "submissionReadiness": {
+    "status": "pending",
+    "storageExpiryThroughJudging": "verified",
+    "publicDistribution": "not-published",
+    "organizerAcceptanceOfStaticDemo": "not-confirmed"
+  },
+  "evidenceMode": "captured",
+  "staticCopyPreparedAt": "2026-11-09T15:07:05.563Z"
+}

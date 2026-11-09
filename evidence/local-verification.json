@@ -1,0 +1,25 @@
+{
+  "verifiedAt": "2026-11-09T14:25:41.367Z",
+  "mode": "fictional-static-replay",
+  "basePath": "/judge/",
+  "backend": false,
+  "sponsorCalls": 0,
+  "checks": {
+    "staticAssets": "passed",
+    "capturedEvidence": "passed",
+    "capturedMainnetRecovery": "passed: loaded hash-checked provider-retrieved artifact without a backend",
+    "exceptionalDelayExampleAndReload": "passed",
+    "correctionChangesFutureForecast": "passed",
+    "reloadPreservesCorrection": "passed",
+    "consoleErrors": []
+  },
+  "authoredExample": {
+    "paperExpectedAmount": "200.00",
+    "dueDate": "2026-11-16",
+    "learnedDateBefore": "2026-11-17",
+    "learnedDateAfter": "2026-11-16",
+    "learnedCashOnDueDateBefore": "-55.00",
+    "learnedCashOnDueDateAfter": "145.00",
+    "actualHeldCashBeforeAndAfter": "1250.00"
+  }
+}

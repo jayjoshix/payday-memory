@@ -1,0 +1,27 @@
+# Audit fixes — 9 November 2026
+
+All eight audit findings are fixed and covered by offline regressions; the missing authored exceptional-delay example is implemented. No new sponsor call, Mainnet write, renewal, payment or publication is part of this fix pass. The captured 8 November sponsor receipts retain their real timestamps; they are not relabelled as fresh verification.
+
+| Finding                                         | Change                                                                                                                                                                                                              | Validation                                                                                  |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| F1: preflight quota refusal                     | Preserve HTTP 429 as a quota error before the SDK converts it; stop subsequent jobs.                                                                                                                                | Installed-SDK preflight regression and quota circuit checks.                                |
+| F2: manifest terminal failure                   | Use a durable manifest job with bounded attempts, stable idempotency, terminal states and quota handling; migrate existing job files without replacing receipts.                                                    | Completion, failed/quota, pending resume, bounded retries and legacy migration regressions. |
+| F3/F4: replay knowledge leakage and eligibility | Construct replay state in knowledge-time order, reject conflicting histories and exclude outcomes already known when freezing.                                                                                      | Future-record invariance, already-settled exclusion and unchanged canonical comparison.     |
+| F5: restored-data timeline bounds               | Derive and clamp replay bounds using the loaded dataset, including its opening/capture date.                                                                                                                        | Browser restore and invalid/earlier date checks.                                            |
+| F6: Memory proof scope                          | Build probe evidence only from the matching account/namespace scope.                                                                                                                                                | Cross-account and cross-namespace proof regressions.                                        |
+| F7: stale refresh state                         | Keep the captured balance, timestamp and scenario visible as stale after failure, with a plain explanation.                                                                                                         | Timeout/stale and missing-balance browser states.                                           |
+| F8: unnamed dialogs                             | Associate each native dialog with its visible heading.                                                                                                                                                              | Accessible-name browser assertions.                                                         |
+| Missing exceptional-delay example               | Add a separate authored fictional example. Aster's isolated 21-day delay is excluded with a reason: four observations and a one-day cautious delay become three observations and zero days; held cash stays $1,250. | Exact fixture/evidence tests and browser flow.                                              |
+
+The exceptional-delay example has a separate dataset identity. It does not rewrite the canonical benchmark, the recovered dataset or any record already stored on Mainnet. **New sample** returns to the original fictional sample; **Load recovered sample** still validates the original genuine recovery capture.
+
+`npm run evidence:verify` is an offline consistency check of every source payload, recorded blob reference, manifest hash, recovered dataset hash and required expiry. It does not assert current provider availability or consume provider quota.
+
+Final verification passed:
+
+- 71 offline tests and all 24 distinct browser cases verified across desktop, tablet and phone. The first full run passed 23 cases and exposed an unnamed mobile reset icon; after fixing its accessible label, the affected exceptional-delay/reset flow passed on all three viewports.
+- Typecheck, lint, formatting, production build and the static `/judge/` recovery/exceptional example.
+- Direct replay bug reproduction now returns identical frozen predictions with or without the unknown future record.
+- Offline evidence verification confirms that all 20 published source payloads, the manifest and the recovered dataset retain their original hashes.
+
+Actual results are also recorded in [the local verification receipt](../evidence/audit-fixes-verification.json). Live sponsor checks were deliberately not rerun; those results remain dated 8 November. Public distribution and submission remain pending user access/authorization; these fixes do not publish anything.

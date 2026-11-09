@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-09T14:44:53.713Z",
+  "completedAt": "2026-11-09T14:47:39.715Z",
+  "completed": true,
+  "checkOnly": false,
+  "sourceFile": "docs/demo/payday-memory-submission-uncut.webm",
+  "sourceAvailability": "Retained locally and excluded from Git; the captioned presentation is the published repository artifact.",
+  "mode": "captured",
+  "dimensions": {
+    "width": 1440,
+    "height": 1080,
+    "appHeight": 900,
+    "captionHeight": 180
+  },
+  "captionMethod": "Permanent caption band recorded below the fixed application iframe",
+  "captionsEmbedded": true,
+  "freshMainnetRecoveryDuringRecording": false,
+  "mainnetWritesDuringRecording": 0,
+  "sponsorRequestsDuringRecording": 0,
+  "capturedMainnetRecoveryAt": "2026-11-08T12:49:43.072Z",
+  "capturedTatumAt": "2026-11-08T12:44:45.757Z",
+  "capturedSourceRecordCount": 20,
+  "integrityCheck": {
+    "startedAt": "2026-11-09T14:46:19.883Z",
+    "completedAt": "2026-11-09T14:46:23.482Z",
+    "status": "captured-artifacts-verified-offline",
+    "sourceRecords": 20,
+    "manifestBlobs": 1,
+    "recoveredDatasetHash": "9bdaa58aa5d2480313ffcf9022a731a83a37aad0938bfbd4f12b355b9a95921e",
+    "publishedContentUnchanged": true,
+    "recordedRetentionThroughJudging": "verified",
+    "sponsorRequestsMade": 0,
+    "currentProviderAvailability": "not checked"
+  },
+  "viewportChecks": [
+    {
+      "width": 1440,
+      "height": 900,
+      "chapter": "Fictional sample \u00b7 actual application"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "chapter": "The spending decision \u00b7 same 30-day horizon"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "chapter": "Why timing matters"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "chapter": "Inspect the evidence"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "chapter": "Correct an assumption"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "chapter": "The lesson changes; held cash does not"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "chapter": "Separate authored exception example"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "chapter": "Captured Mainnet recovery \u00b7 local verification now"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "chapter": "Actual recorded job and blob identifiers"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "chapter": "Clean disposable browser copy \u00b7 captured recovery"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "chapter": "Tatum evidence \u00b7 genuinely captured, not live"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "chapter": "Measured only on this authored fixture"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "chapter": "A planner with a visible memory"
+    }
+  ],
+  "captions": [
+    {
+      "elapsedSeconds": 0.011,
+      "chapter": "Fictional sample \u00b7 actual application",
+      "text": "Payday Memory remembers how you actually get paid. This is authored fictional history; no signup, wallet or funds are needed."
+    },
+    {
+      "elapsedSeconds": 12.444,
+      "chapter": "The spending decision \u00b7 same 30-day horizon",
+      "text": "A $240 purchase keeps the promised-date buffer covered. With learned delays, the lowest cash is $295 below zero: $595 below the chosen buffer."
+    },
+    {
+      "elapsedSeconds": 24.095,
+      "chapter": "Why timing matters",
+      "text": "Rent is due before Cedar\u2019s learned arrival date. Promised dates, learned dates and no further income use the same 30-day horizon."
+    },
+    {
+      "elapsedSeconds": 37.282,
+      "chapter": "Inspect the evidence",
+      "text": "Cedar\u2019s cautious plan uses the median delay of six completed payments: eight days. These observations are explicitly fictional."
+    },
+    {
+      "elapsedSeconds": 50.363,
+      "chapter": "Correct an assumption",
+      "text": "Paper Lane\u2019s receipt repaid shared costs. Reclassify it as a reimbursement; keep the receipt and its earlier interpretation in the audit history."
+    },
+    {
+      "elapsedSeconds": 62.742,
+      "chapter": "The lesson changes; held cash does not",
+      "text": "Paper Lane now has only two eligible payments, so its entered planning date is retained. Physical cash stays $1,250."
+    },
+    {
+      "elapsedSeconds": 74.555,
+      "chapter": "Separate authored exception example",
+      "text": "An isolated 21-day Aster delay can be excluded with a reason. Its usual timing changes from one day late to the due date; the cash stays put."
+    },
+    {
+      "elapsedSeconds": 86.016,
+      "chapter": "Captured Mainnet recovery \u00b7 local verification now",
+      "text": "The Mainnet recovery shown next was captured on 8 November. We now run an offline check of every stored-record reference, manifest hash and recovered dataset hash."
+    },
+    {
+      "elapsedSeconds": 102.012,
+      "chapter": "Actual recorded job and blob identifiers",
+      "text": "Twenty meaningful fictional records and their separate manifest were genuinely retrieved. These are the recorded completion IDs and timestamp; this check makes no fresh provider request."
+    },
+    {
+      "elapsedSeconds": 115.122,
+      "chapter": "Clean disposable browser copy \u00b7 captured recovery",
+      "text": "A clean browser copy loads the hash-checked recovery. The corrected reimbursement and revised lesson return; loading this capture sends no sponsor request."
+    },
+    {
+      "elapsedSeconds": 127.096,
+      "chapter": "Tatum evidence \u00b7 genuinely captured, not live",
+      "text": "Tatum captured zero native USDC for the supplied public address. That real snapshot changes this hypothetical forecast. No owner identity or complete wallet history is claimed."
+    },
+    {
+      "elapsedSeconds": 141.189,
+      "chapter": "Measured only on this authored fixture",
+      "text": "Four resolved cases: promised-date error is 6 days; learned-date error is 2.5 days. One punctual payment is a counterexample where the learned date is worse."
+    },
+    {
+      "elapsedSeconds": 154.271,
+      "chapter": "A planner with a visible memory",
+      "text": "Exact amounts, traceable lessons and corrections that survive recovery. All recorded expiries cover judging. Public publication remains a separate step."
+    }
+  ],
+  "consoleErrors": [],
+  "externalBrowserRequests": [],
+  "presentation": {
+    "file": "docs/demo/payday-memory-submission.webm",
+    "sourceFile": "docs/demo/payday-memory-submission-uncut.webm",
+    "sourceDurationSeconds": 167.96,
+    "durationSeconds": 165.5,
+    "width": 1440,
+    "height": 1080,
+    "fps": 12.0,
+    "codec": "vp9",
+    "audio": false,
+    "bytes": 3485225,
+    "captionsEmbedded": true,
+    "startupTrimSeconds": 2.6,
+    "edits": "Removed 2.6 seconds of reviewed browser startup; compression and 12 fps conversion only thereafter. The application run is continuous without cropping or scaling. The uncut source is preserved.",
+    "automatedQaPassed": true,
+    "verified": true,
+    "visualReviewVerified": true,
+    "qaReport": "docs/demo/captioned-video-review.json",
+    "qaReportType": "Retained review summary; temporary per-second PNGs and detailed pixel metrics were removed during repository cleanup.",
+    "contactSheet": "docs/demo/submission-contact-sheet.jpg",
+    "visualReviewedAt": "2026-11-09T14:58:24.366150+00:00",
+    "visualReviewMethod": "Sampled still frames, full-size chapter frames and contact sheet; independent second review of correction, exception, evaluation and ending.",
+    "visualReviewLimitations": "Not a continuous manual playback or audio review. The recording intentionally has no narration. Pixel heuristics do not validate caption semantics.",
+    "sha256": "8240f12f87b28f02c5d7e66e8840a4d5bf53768b6f12861edfb2660b242b4b54",
+    "publicQaSummary": "docs/demo/captioned-video-review.json",
+    "publicContactSheet": "docs/demo/submission-contact-sheet.jpg",
+    "previewFrame": "docs/demo/submission-start-frame.png"
+  }
+}

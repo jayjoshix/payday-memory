@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-09T14:25:57.938252+00:00",
+  "scope": "9 November audit fixes; local/offline verification",
+  "findingsResolved": ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8"],
+  "exceptionalDelayExampleAdded": true,
+  "checks": {
+    "offlineTests": {
+      "passed": 71,
+      "failed": 0
+    },
+    "browserTests": {
+      "uniqueCasesVerified": 24,
+      "unresolvedFailures": 0,
+      "viewports": ["desktop", "tablet", "390px phone"],
+      "fullRunBeforeFinalLabelFix": {
+        "passed": 23,
+        "failed": 1,
+        "failure": "Mobile reset icon lacked its accessible name"
+      },
+      "targetedRerunAfterLabelFix": {
+        "passed": 3,
+        "failed": 0,
+        "cases": "Exceptional-delay and reset flow across all three viewports"
+      }
+    },
+    "typecheck": "passed",
+    "lint": "passed",
+    "format": "passed",
+    "productionBuild": "passed",
+    "staticSubpathRecoveryAndExceptionalExample": "passed",
+    "capturedMainnetSourceAndManifestHashes": "unchanged; verified offline"
+  },
+  "canonicalReplay": {
+    "resolved": 4,
+    "unresolved": 1,
+    "promisedDateMAE": 6,
+    "learnedDateMAE": 2.5
+  },
+  "sponsorRequestsDuringFixPass": 0,
+  "mainnetWritesDuringFixPass": 0,
+  "newMonetarySpend": 0,
+  "liveSponsorChecks": "Not rerun. Genuine 8 November receipts and timestamps are preserved.",
+  "publicPublication": "Pending authorization/account access; no public URLs created."
+}
